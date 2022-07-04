@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+
+    let bang='<table border="2" style="width: 100%">'
+    for (let i = 1; i <=9 ; i++) {
+        console.log('gia tri i----------',i)
+        bang+='<tr>'
+        for (let j = 2; j <=9 ; j++) {
+            console.log('gia tri j------',j)
+            bang+='<td>' + j+'x'+ i + '=' + i*j +'</td>'
+        }
+        bang+='</tr>'
+
+    }
+    bang+='</table>'
+    document.write(bang)
+
+</script>
+
+</body>
+</html>
